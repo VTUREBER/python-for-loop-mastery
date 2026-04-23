@@ -6,7 +6,7 @@
 1. **Fork** รีโพสิทอรีนี้ไปยังบัญชี GitHub ของคุณ
 2. **Clone** ไปยังเครื่องคอมพิวเตอร์ของคุณ:
    ```bash
-   git clone https://github.com/mrbigpha/python-for-loop-mastery.git
+   git clone https://github.com/[your-github-username]/python-for-loop-mastery.git
    ```
 3. เข้าไปยังโฟลเดอร์โปรเจกต์:
    ```bash
