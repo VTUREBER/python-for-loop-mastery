@@ -48,5 +48,10 @@ python3 check_solution.py
 - [ ] `ex12_inverted_triangle.py` - สร้างรูปสามเหลี่ยมกลับหัว 🆕
 - [ ] `ex13_pyramid.py` - สร้างรูปพีระมิด 🆕
 - [ ] `ex14_prime_check.py` - ตรวจสอบว่าจำนวนนั้นเป็นจำนวนเฉพาะหรือไม่
+- [ ] `ex15_fizz_buzz.py` - สร้างลิสต์ FizzBuzz (ผสม for + if) 🆕
+- [ ] `ex16_sum_multiples.py` - ผลรวมตัวเลขที่หารด้วย 3 หรือ 5 ลงตัว 🆕
+- [ ] `ex17_filter_even_positive.py` - คัดเลือกเลขคู่ที่เป็นบวก 🆕
+- [ ] `ex18_count_char_in_list.py` - นับตัวอักษรในลิสต์ของข้อความ 🆕
+- [ ] `ex19_all_above_threshold.py` - ตรวจสอบค่าในลิสต์ว่าเกินเกณฑ์ทุกตัวหรือไม่ 🆕
 
 ---

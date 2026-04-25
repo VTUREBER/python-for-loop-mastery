@@ -141,6 +141,55 @@ def run_tests():
                 ((15,), False)
             ]
         ),
+        (
+            "ex15_fizz_buzz", 
+            "fizz_buzz", 
+            [
+                ((5,), [1, 2, "Fizz", 4, "Buzz"]),
+                ((3,), [1, 2, "Fizz"]),
+                ((15,), [1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "FizzBuzz"])
+            ]
+        ),
+        (
+            "ex16_sum_multiples", 
+            "sum_multiples", 
+            [
+                ((10,), 33),
+                ((15,), 60),
+                ((5,), 8),
+                ((2,), 0)
+            ]
+        ),
+        (
+            "ex17_filter_even_positive", 
+            "filter_even_positive", 
+            [
+                (([1, -2, 2, 0, 4, 5],), [2, 4]),
+                (([-4, -2, 0, 1, 3],), []),
+                (([2, 4, 6],), [2, 4, 6]),
+                (([],), [])
+            ]
+        ),
+        (
+            "ex18_count_char_in_list", 
+            "count_char_in_list", 
+            [
+                ((["apple", "banana", "cherry"], "a"), 4),
+                ((["hello", "world"], "o"), 2),
+                ((["A", "a", "B"], "A"), 1),
+                (([], "z"), 0)
+            ]
+        ),
+        (
+            "ex19_all_above_threshold", 
+            "all_above_threshold", 
+            [
+                (([10, 20, 30], 5), True),
+                (([10, 4, 30], 5), False),
+                (([5, 6, 7], 5), False),
+                (([], 100), True)
+            ]
+        ),
     ]
 
     total_passed = 0
