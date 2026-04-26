@@ -56,7 +56,24 @@ def run_tests():
             ]
         ),
         (
-            "ex06_multiplication_table", 
+            "ex06_find_min",
+            "find_min",
+            [
+                (([10, 5, 8, 2, 7],), 2),
+                (([1],), 1)
+            ]
+        ),
+        (
+            "ex07_find_min_max",
+            "find_min_max",
+            [
+                (([1, 5, 3, 9, 2],), (1, 9)),
+                (([10],), (10, 10)),
+                (([-5, 0, 5],), (-5, 5))
+            ]
+        ),
+        (
+            "ex08_multiplication_table", 
             "multiplication_table", 
             [
                 ((2,), [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24]),
@@ -64,7 +81,7 @@ def run_tests():
             ]
         ),
         (
-            "ex07_reverse_string", 
+            "ex09_reverse_string", 
             "reverse_string", 
             [
                 (("hello",), "olleh"),
@@ -74,7 +91,7 @@ def run_tests():
             ]
         ),
         (
-            "ex08_vowel_count", 
+            "ex10_vowel_count", 
             "vowel_count", 
             [
                 (("hello world",), 3),
@@ -84,7 +101,7 @@ def run_tests():
             ]
         ),
         (
-            "ex09_factorial", 
+            "ex11_factorial", 
             "calculate_factorial", 
             [
                 ((5,), 120),
@@ -94,7 +111,7 @@ def run_tests():
             ]
         ),
         (
-            "ex10_fibonacci_list", 
+            "ex12_fibonacci_list", 
             "fibonacci_list", 
             [
                 ((5,), [0, 1, 1, 2, 3]),
@@ -103,7 +120,7 @@ def run_tests():
             ]
         ),
         (
-            "ex11_star_triangle", 
+            "ex13_star_triangle", 
             "star_triangle", 
             [
                 ((3,), "*\n**\n***"),
@@ -112,7 +129,7 @@ def run_tests():
             ]
         ),
         (
-            "ex12_inverted_triangle", 
+            "ex14_inverted_triangle", 
             "inverted_triangle", 
             [
                 ((3,), "***\n**\n*"),
@@ -121,7 +138,7 @@ def run_tests():
             ]
         ),
         (
-            "ex13_pyramid", 
+            "ex15_pyramid", 
             "pyramid", 
             [
                 ((3,), "  *\n ***\n*****"),
@@ -130,7 +147,7 @@ def run_tests():
             ]
         ),
         (
-            "ex14_prime_check", 
+            "ex16_prime_check", 
             "is_prime", 
             [
                 ((7,), True),
@@ -142,7 +159,7 @@ def run_tests():
             ]
         ),
         (
-            "ex15_fizz_buzz", 
+            "ex17_fizz_buzz", 
             "fizz_buzz", 
             [
                 ((5,), [1, 2, "Fizz", 4, "Buzz"]),
@@ -151,7 +168,7 @@ def run_tests():
             ]
         ),
         (
-            "ex16_sum_multiples", 
+            "ex18_sum_multiples", 
             "sum_multiples", 
             [
                 ((10,), 33),
@@ -161,7 +178,7 @@ def run_tests():
             ]
         ),
         (
-            "ex17_filter_even_positive", 
+            "ex19_filter_even_positive", 
             "filter_even_positive", 
             [
                 (([1, -2, 2, 0, 4, 5],), [2, 4]),
@@ -171,7 +188,7 @@ def run_tests():
             ]
         ),
         (
-            "ex18_count_char_in_list", 
+            "ex20_count_char_in_list", 
             "count_char_in_list", 
             [
                 ((["apple", "banana", "cherry"], "a"), 4),
@@ -181,7 +198,7 @@ def run_tests():
             ]
         ),
         (
-            "ex19_all_above_threshold", 
+            "ex21_all_above_threshold", 
             "all_above_threshold", 
             [
                 (([10, 20, 30], 5), True),
@@ -191,7 +208,7 @@ def run_tests():
             ]
         ),
         (
-            "ex20_linear_search",
+            "ex22_linear_search",
             "linear_search",
             [
                 (([10, 20, 30, 40], 30), 2),
@@ -201,7 +218,7 @@ def run_tests():
             ]
         ),
         (
-            "ex21_is_sorted",
+            "ex23_is_sorted",
             "is_sorted",
             [
                 (([1, 2, 3, 5],), True),
@@ -212,7 +229,7 @@ def run_tests():
             ]
         ),
         (
-            "ex22_find_average",
+            "ex24_find_average",
             "find_average",
             [
                 (([1, 2, 3, 4, 5],), 3.0),
@@ -222,16 +239,7 @@ def run_tests():
             ]
         ),
         (
-            "ex23_find_min",
-            "find_min",
-            [
-                (([1, 5, 3, 9, 2],), 1),
-                (([-1, -5, -2],), -5),
-                (([10],), 10)
-            ]
-        ),
-        (
-            "ex24_list_addition",
+            "ex25_list_addition",
             "list_addition",
             [
                 (([1, 2, 3], [10, 20, 30]), [11, 22, 33]),
@@ -240,7 +248,7 @@ def run_tests():
             ]
         ),
         (
-            "ex25_is_member_of",
+            "ex26_is_member_of",
             "is_member_of",
             [
                 (([1, 2], [1, 2, 3, 4]), True),
@@ -250,7 +258,7 @@ def run_tests():
             ]
         ),
         (
-            "ex26_sum_2d_list",
+            "ex27_sum_2d_list",
             "sum_2d_list",
             [
                 (([[1, 2], [3, 4]],), 10),
@@ -260,7 +268,7 @@ def run_tests():
             ]
         ),
         (
-            "ex27_identity_matrix",
+            "ex28_identity_matrix",
             "identity_matrix",
             [
                 ((2,), [[1, 0], [0, 1]]),
@@ -269,7 +277,7 @@ def run_tests():
             ]
         ),
         (
-            "ex28_remove_duplicates",
+            "ex29_remove_duplicates",
             "remove_duplicates",
             [
                 (([1, 2, 2, 3, 1, 4],), [1, 2, 3, 4]),
@@ -279,29 +287,12 @@ def run_tests():
             ]
         ),
         (
-            "ex29_bubble_sort_pass",
+            "ex30_bubble_sort_pass",
             "bubble_sort_pass",
             [
                 (([4, 3, 1, 5, 2],), [3, 1, 4, 2, 5]),
                 (([1, 2, 3],), [1, 2, 3]),
                 (([3, 2, 1],), [2, 1, 3])
-            ]
-        ),
-        (
-            "ex30_find_min_simple",
-            "find_min_simple",
-            [
-                (([10, 5, 8, 2, 7],), 2),
-                (([1],), 1)
-            ]
-        ),
-        (
-            "ex31_find_min_max",
-            "find_min_max",
-            [
-                (([1, 5, 3, 9, 2],), (1, 9)),
-                (([10],), (10, 10)),
-                (([-5, 0, 5],), (-5, 5))
             ]
         ),
     ]

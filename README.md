@@ -39,31 +39,30 @@ python3 check_solution.py
 - [ ] `ex03_countdown.py` - สร้างลิสต์ถอยหลังโดยใช้ negative step
 - [ ] `ex04_count_even.py` - นับจำนวนเลขคู่ในลิสต์
 - [ ] `ex05_find_max.py` - หาค่าที่มากที่สุดในลิสต์ (ห้ามใช้ max())
-- [ ] `ex06_multiplication_table.py` - สร้างแม่สูตรคูณ
-- [ ] `ex07_reverse_string.py` - กลับด้านข้อความ
-- [ ] `ex08_vowel_count.py` - นับจำนวนสระในข้อความ
-- [ ] `ex09_factorial.py` - คำนวณค่าแฟกทอเรียล (n!)
-- [ ] `ex10_fibonacci_list.py` - สร้างลำดับฟีโบนัชชี n ลำดับแรก
-- [ ] `ex11_star_triangle.py` - สร้างรูปสามเหลี่ยมดอกจัน
-- [ ] `ex12_inverted_triangle.py` - สร้างรูปสามเหลี่ยมกลับหัว 
-- [ ] `ex13_pyramid.py` - สร้างรูปพีระมิด 
-- [ ] `ex14_prime_check.py` - ตรวจสอบว่าจำนวนนั้นเป็นจำนวนเฉพาะหรือไม่
-- [ ] `ex15_fizz_buzz.py` - สร้างลิสต์ FizzBuzz (ผสม for + if) 
-- [ ] `ex16_sum_multiples.py` - ผลรวมตัวเลขที่หารด้วย 3 หรือ 5 ลงตัว 
-- [ ] `ex17_filter_even_positive.py` - คัดเลือกเลขคู่ที่เป็นบวก 
-- [ ] `ex18_count_char_in_list.py` - นับตัวอักษรในลิสต์ของข้อความ 
-- [ ] `ex19_all_above_threshold.py` - ตรวจสอบค่าในลิสต์ว่าเกินเกณฑ์ทุกตัวหรือไม่ 
-- [ ] `ex20_linear_search.py` - ค้นหาตำแหน่งของตัวเลขในลิสต์ 
-- [ ] `ex21_is_sorted.py` - ตรวจสอบว่าลิสต์เรียงลำดับหรือไม่ 
-- [ ] `ex22_find_average.py` - หาค่าเฉลี่ยของตัวเลข (ห้ามใช้ sum/len) 
-- [ ] `ex23_find_min.py` - หาค่าที่น้อยที่สุดในลิสต์ 
-- [ ] `ex24_list_addition.py` - บวกเลขจาก 2 ลิสต์เข้าด้วยกัน 
-- [ ] `ex25_is_member_of.py` - ตรวจสอบความเป็นสมาชิกของทุกลำดับ 
-- [ ] `ex26_sum_2d_list.py` - ผลรวมของตัวเลขใน Matrix 
-- [ ] `ex27_identity_matrix.py` - สร้าง Matrix เอกลักษณ์ (n x n) 
-- [ ] `ex28_remove_duplicates.py` - ลบสมาชิกที่ซ้ำกันออก 
-- [ ] `ex29_bubble_sort_pass.py` - การสลับที่ข้อมูลแบบ Bubble Sort (1 รอบ) 
-- [ ] `ex30_find_min_simple.py` - หาค่าที่น้อยที่สุด (เพิ่มเติม) 
-- [ ] `ex31_find_min_max.py` - หาค่าทั้งน้อยที่สุดและมากที่สุดพร้อมกัน 
+- [ ] `ex06_find_min.py` - หาค่าที่น้อยที่สุดในลิสต์ (ห้ามใช้ min()) 🆕
+- [ ] `ex07_find_min_max.py` - หาค่าทั้งน้อยที่สุดและมากที่สุดพร้อมกัน 🆕
+- [ ] `ex08_multiplication_table.py` - สร้างแม่สูตรคูณ
+- [ ] `ex09_reverse_string.py` - กลับด้านข้อความ
+- [ ] `ex10_vowel_count.py` - นับจำนวนสระในข้อความ
+- [ ] `ex11_factorial.py` - คำนวณค่าแฟกทอเรียล (n!)
+- [ ] `ex12_fibonacci_list.py` - สร้างลำดับฟีโบนัชชี n ลำดับแรก
+- [ ] `ex13_star_triangle.py` - สร้างรูปสามเหลี่ยมดอกจัน
+- [ ] `ex14_inverted_triangle.py` - สร้างรูปสามเหลี่ยมกลับหัว
+- [ ] `ex15_pyramid.py` - สร้างรูปพีระมิด
+- [ ] `ex16_prime_check.py` - ตรวจสอบว่าจำนวนนั้นเป็นจำนวนเฉพาะหรือไม่
+- [ ] `ex17_fizz_buzz.py` - สร้างลิสต์ FizzBuzz
+- [ ] `ex18_sum_multiples.py` - ผลรวมตัวเลขที่หารด้วย 3 หรือ 5 ลงตัว
+- [ ] `ex19_filter_even_positive.py` - คัดเลือกเลขคู่ที่เป็นบวก
+- [ ] `ex20_count_char_in_list.py` - นับตัวอักษรในลิสต์ของข้อความ
+- [ ] `ex21_all_above_threshold.py` - ตรวจสอบค่าในลิสต์ว่าเกินเกณฑ์ทุกตัวหรือไม่
+- [ ] `ex22_linear_search.py` - ค้นหาตำแหน่งของตัวเลขในลิสต์
+- [ ] `ex23_is_sorted.py` - ตรวจสอบว่าลิสต์เรียงลำดับหรือไม่
+- [ ] `ex24_find_average.py` - หาค่าเฉลี่ยของตัวเลข (ห้ามใช้ sum/len)
+- [ ] `ex25_list_addition.py` - บวกเลขจาก 2 ลิสต์เข้าด้วยกัน
+- [ ] `ex26_is_member_of.py` - ตรวจสอบความเป็นสมาชิกของทุกลำดับ
+- [ ] `ex27_sum_2d_list.py` - ผลรวมของตัวเลขใน Matrix
+- [ ] `ex28_identity_matrix.py` - สร้าง Matrix เอกลักษณ์ (n x n)
+- [ ] `ex29_remove_duplicates.py` - ลบสมาชิกที่ซ้ำกันออก
+- [ ] `ex30_bubble_sort_pass.py` - การสลับที่ข้อมูลแบบ Bubble Sort (1 รอบ)
 
 ---
