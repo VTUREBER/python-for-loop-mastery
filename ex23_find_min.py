@@ -16,3 +16,20 @@ def find_min(numbers):
     # --- เริ่มเขียนโค้ดด้านล่างนี้ ---
     raise NotImplementedError("ลบไลน์นี้แล้วเขียนโค้ดของคุณที่นี่")
     # --- สิ้นสุดการเขียนโค้ด ---
+
+if __name__ == "__main__":
+    # ทดสอบด้วยตัวเอง
+    try:
+        result = find_min([1, 5, 3, 9, 2])
+        print(f"Test Case 1: find_min([1, 5, 3, 9, 2]) = {result} (คาดหวัง: {repr(1)})")
+    except NotImplementedError:
+        print(f"Test Case 1: find_min([1, 5, 3, 9, 2]) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 1: find_min([1, 5, 3, 9, 2]) = 💥 เกิดข้อผิดพลาด: {e}")
+    try:
+        result = find_min([-1, -5, -2])
+        print(f"Test Case 2: find_min([-1, -5, -2]) = {result} (คาดหวัง: {repr(-5)})")
+    except NotImplementedError:
+        print(f"Test Case 2: find_min([-1, -5, -2]) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 2: find_min([-1, -5, -2]) = 💥 เกิดข้อผิดพลาด: {e}")

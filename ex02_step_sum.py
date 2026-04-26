@@ -19,3 +19,20 @@ def step_sum(start, end, step):
     # --- เริ่มเขียนโค้ดด้านล่างนี้ ---
     raise NotImplementedError("ลบไลน์นี้แล้วเขียนโค้ดของคุณที่นี่")
     # --- สิ้นสุดการเขียนโค้ด ---
+
+if __name__ == "__main__":
+    # ทดสอบด้วยตัวเอง
+    try:
+        result = step_sum(1, 10, 2)
+        print(f"Test Case 1: step_sum(1, 10, 2) = {result} (คาดหวัง: {repr(25)})")
+    except NotImplementedError:
+        print(f"Test Case 1: step_sum(1, 10, 2) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 1: step_sum(1, 10, 2) = 💥 เกิดข้อผิดพลาด: {e}")
+    try:
+        result = step_sum(2, 10, 3)
+        print(f"Test Case 2: step_sum(2, 10, 3) = {result} (คาดหวัง: {repr(15)})")
+    except NotImplementedError:
+        print(f"Test Case 2: step_sum(2, 10, 3) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 2: step_sum(2, 10, 3) = 💥 เกิดข้อผิดพลาด: {e}")

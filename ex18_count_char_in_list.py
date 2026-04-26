@@ -18,3 +18,20 @@ def count_char_in_list(strings, char):
     # --- เริ่มเขียนโค้ดด้านล่างนี้ ---
     raise NotImplementedError("ลบไลน์นี้แล้วเขียนโค้ดของคุณที่นี่")
     # --- สิ้นสุดการเขียนโค้ด ---
+
+if __name__ == "__main__":
+    # ทดสอบด้วยตัวเอง
+    try:
+        result = count_char_in_list(['apple', 'banana', 'cherry'], 'a')
+        print(f"Test Case 1: count_char_in_list(['apple', 'banana', 'cherry'], 'a') = {result} (คาดหวัง: {repr(4)})")
+    except NotImplementedError:
+        print(f"Test Case 1: count_char_in_list(['apple', 'banana', 'cherry'], 'a') = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 1: count_char_in_list(['apple', 'banana', 'cherry'], 'a') = 💥 เกิดข้อผิดพลาด: {e}")
+    try:
+        result = count_char_in_list(['hello', 'world'], 'o')
+        print(f"Test Case 2: count_char_in_list(['hello', 'world'], 'o') = {result} (คาดหวัง: {repr(2)})")
+    except NotImplementedError:
+        print(f"Test Case 2: count_char_in_list(['hello', 'world'], 'o') = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 2: count_char_in_list(['hello', 'world'], 'o') = 💥 เกิดข้อผิดพลาด: {e}")

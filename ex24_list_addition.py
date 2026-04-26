@@ -17,3 +17,20 @@ def list_addition(list_a, list_b):
     # --- เริ่มเขียนโค้ดด้านล่างนี้ ---
     raise NotImplementedError("ลบไลน์นี้แล้วเขียนโค้ดของคุณที่นี่")
     # --- สิ้นสุดการเขียนโค้ด ---
+
+if __name__ == "__main__":
+    # ทดสอบด้วยตัวเอง
+    try:
+        result = list_addition([1, 2, 3], [10, 20, 30])
+        print(f"Test Case 1: list_addition([1, 2, 3], [10, 20, 30]) = {result} (คาดหวัง: {repr([11, 22, 33])})")
+    except NotImplementedError:
+        print(f"Test Case 1: list_addition([1, 2, 3], [10, 20, 30]) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 1: list_addition([1, 2, 3], [10, 20, 30]) = 💥 เกิดข้อผิดพลาด: {e}")
+    try:
+        result = list_addition([0, 0], [1, 1])
+        print(f"Test Case 2: list_addition([0, 0], [1, 1]) = {result} (คาดหวัง: {repr([1, 1])})")
+    except NotImplementedError:
+        print(f"Test Case 2: list_addition([0, 0], [1, 1]) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 2: list_addition([0, 0], [1, 1]) = 💥 เกิดข้อผิดพลาด: {e}")

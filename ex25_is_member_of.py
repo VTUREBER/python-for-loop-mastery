@@ -18,3 +18,20 @@ def is_member_of(list_a, list_b):
     # --- เริ่มเขียนโค้ดด้านล่างนี้ ---
     raise NotImplementedError("ลบไลน์นี้แล้วเขียนโค้ดของคุณที่นี่")
     # --- สิ้นสุดการเขียนโค้ด ---
+
+if __name__ == "__main__":
+    # ทดสอบด้วยตัวเอง
+    try:
+        result = is_member_of([1, 2], [1, 2, 3, 4])
+        print(f"Test Case 1: is_member_of([1, 2], [1, 2, 3, 4]) = {result} (คาดหวัง: {repr(True)})")
+    except NotImplementedError:
+        print(f"Test Case 1: is_member_of([1, 2], [1, 2, 3, 4]) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 1: is_member_of([1, 2], [1, 2, 3, 4]) = 💥 เกิดข้อผิดพลาด: {e}")
+    try:
+        result = is_member_of([1, 5], [1, 2, 3, 4])
+        print(f"Test Case 2: is_member_of([1, 5], [1, 2, 3, 4]) = {result} (คาดหวัง: {repr(False)})")
+    except NotImplementedError:
+        print(f"Test Case 2: is_member_of([1, 5], [1, 2, 3, 4]) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 2: is_member_of([1, 5], [1, 2, 3, 4]) = 💥 เกิดข้อผิดพลาด: {e}")

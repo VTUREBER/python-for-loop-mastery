@@ -15,3 +15,20 @@ def multiplication_table(n):
     # --- เริ่มเขียนโค้ดด้านล่างนี้ ---
     raise NotImplementedError("ลบไลน์นี้แล้วเขียนโค้ดของคุณที่นี่")
     # --- สิ้นสุดการเขียนโค้ด ---
+
+if __name__ == "__main__":
+    # ทดสอบด้วยตัวเอง
+    try:
+        result = multiplication_table(2)
+        print(f"Test Case 1: multiplication_table(2) = {result} (คาดหวัง: {repr([2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24])})")
+    except NotImplementedError:
+        print(f"Test Case 1: multiplication_table(2) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 1: multiplication_table(2) = 💥 เกิดข้อผิดพลาด: {e}")
+    try:
+        result = multiplication_table(5)
+        print(f"Test Case 2: multiplication_table(5) = {result} (คาดหวัง: {repr([5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60])})")
+    except NotImplementedError:
+        print(f"Test Case 2: multiplication_table(5) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 2: multiplication_table(5) = 💥 เกิดข้อผิดพลาด: {e}")

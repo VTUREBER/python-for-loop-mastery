@@ -19,3 +19,20 @@ def all_above_threshold(numbers, threshold):
     # --- เริ่มเขียนโค้ดด้านล่างนี้ ---
     raise NotImplementedError("ลบไลน์นี้แล้วเขียนโค้ดของคุณที่นี่")
     # --- สิ้นสุดการเขียนโค้ด ---
+
+if __name__ == "__main__":
+    # ทดสอบด้วยตัวเอง
+    try:
+        result = all_above_threshold([10, 20, 30], 5)
+        print(f"Test Case 1: all_above_threshold([10, 20, 30], 5) = {result} (คาดหวัง: {repr(True)})")
+    except NotImplementedError:
+        print(f"Test Case 1: all_above_threshold([10, 20, 30], 5) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 1: all_above_threshold([10, 20, 30], 5) = 💥 เกิดข้อผิดพลาด: {e}")
+    try:
+        result = all_above_threshold([10, 4, 30], 5)
+        print(f"Test Case 2: all_above_threshold([10, 4, 30], 5) = {result} (คาดหวัง: {repr(False)})")
+    except NotImplementedError:
+        print(f"Test Case 2: all_above_threshold([10, 4, 30], 5) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 2: all_above_threshold([10, 4, 30], 5) = 💥 เกิดข้อผิดพลาด: {e}")

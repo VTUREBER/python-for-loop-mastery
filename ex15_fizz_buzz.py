@@ -20,3 +20,20 @@ def fizz_buzz(n):
     # --- เริ่มเขียนโค้ดด้านล่างนี้ ---
     raise NotImplementedError("ลบไลน์นี้แล้วเขียนโค้ดของคุณที่นี่")
     # --- สิ้นสุดการเขียนโค้ด ---
+
+if __name__ == "__main__":
+    # ทดสอบด้วยตัวเอง
+    try:
+        result = fizz_buzz(5)
+        print(f"Test Case 1: fizz_buzz(5) = {result} (คาดหวัง: {repr([1, 2, 'Fizz', 4, 'Buzz'])})")
+    except NotImplementedError:
+        print(f"Test Case 1: fizz_buzz(5) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 1: fizz_buzz(5) = 💥 เกิดข้อผิดพลาด: {e}")
+    try:
+        result = fizz_buzz(3)
+        print(f"Test Case 2: fizz_buzz(3) = {result} (คาดหวัง: {repr([1, 2, 'Fizz'])})")
+    except NotImplementedError:
+        print(f"Test Case 2: fizz_buzz(3) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 2: fizz_buzz(3) = 💥 เกิดข้อผิดพลาด: {e}")

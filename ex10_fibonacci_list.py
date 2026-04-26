@@ -18,3 +18,20 @@ def fibonacci_list(n):
     # --- เริ่มเขียนโค้ดด้านล่างนี้ ---
     raise NotImplementedError("ลบไลน์นี้แล้วเขียนโค้ดของคุณที่นี่")
     # --- สิ้นสุดการเขียนโค้ด ---
+
+if __name__ == "__main__":
+    # ทดสอบด้วยตัวเอง
+    try:
+        result = fibonacci_list(5)
+        print(f"Test Case 1: fibonacci_list(5) = {result} (คาดหวัง: {repr([0, 1, 1, 2, 3])})")
+    except NotImplementedError:
+        print(f"Test Case 1: fibonacci_list(5) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 1: fibonacci_list(5) = 💥 เกิดข้อผิดพลาด: {e}")
+    try:
+        result = fibonacci_list(1)
+        print(f"Test Case 2: fibonacci_list(1) = {result} (คาดหวัง: {repr([0])})")
+    except NotImplementedError:
+        print(f"Test Case 2: fibonacci_list(1) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 2: fibonacci_list(1) = 💥 เกิดข้อผิดพลาด: {e}")

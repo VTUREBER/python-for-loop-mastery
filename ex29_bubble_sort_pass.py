@@ -21,3 +21,20 @@ def bubble_sort_pass(numbers):
     # --- เริ่มเขียนโค้ดด้านล่างนี้ ---
     raise NotImplementedError("ลบไลน์นี้แล้วเขียนโค้ดของคุณที่นี่")
     # --- สิ้นสุดการเขียนโค้ด ---
+
+if __name__ == "__main__":
+    # ทดสอบด้วยตัวเอง
+    try:
+        result = bubble_sort_pass([4, 3, 1, 5, 2])
+        print(f"Test Case 1: bubble_sort_pass([4, 3, 1, 5, 2]) = {result} (คาดหวัง: {repr([3, 1, 4, 2, 5])})")
+    except NotImplementedError:
+        print(f"Test Case 1: bubble_sort_pass([4, 3, 1, 5, 2]) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 1: bubble_sort_pass([4, 3, 1, 5, 2]) = 💥 เกิดข้อผิดพลาด: {e}")
+    try:
+        result = bubble_sort_pass([1, 2, 3])
+        print(f"Test Case 2: bubble_sort_pass([1, 2, 3]) = {result} (คาดหวัง: {repr([1, 2, 3])})")
+    except NotImplementedError:
+        print(f"Test Case 2: bubble_sort_pass([1, 2, 3]) = 🚧 ยังไม่ได้เขียนโค้ด")
+    except Exception as e:
+        print(f"Test Case 2: bubble_sort_pass([1, 2, 3]) = 💥 เกิดข้อผิดพลาด: {e}")
